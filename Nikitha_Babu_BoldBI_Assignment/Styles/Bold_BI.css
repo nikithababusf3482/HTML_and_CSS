@@ -1,0 +1,286 @@
+body{
+    width: 85%;
+    margin: 0% 10% 0% 10%;
+    background-image: url(../Images/Vector-1.png); 
+    background-position-y: 14%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* Form Styling */
+
+#SectionI{
+    width: 30%;
+    position: relative;left: 5%;
+    padding-top: 5%;
+}
+#sectionII{
+    border: 2px white(179, 4, 4) solid; 
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.192);
+    width: 40%;
+    margin: 2% 4% 0% 0%;
+
+}
+#sectionI_II{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+    /* justify-content: space-evenly; */
+
+#sendusmessage{
+    margin:3%;
+    font-size: 180%;
+    font-family: "Caros", Caros;
+    font-weight: bold;
+    text-align: center;
+    color:#283A5E;
+}
+#ifyou{
+    font-size: 100%;
+    font-family: "Caros", Caros;
+    font-weight: normal;
+    text-align: center;
+    color:#283A5E;
+}
+.formitems{
+    padding:2% 2% 2% 2%;
+    margin:2% 2% 2% 2%;
+    border: 0.5px rgba(126, 122, 122, 0.185) solid;
+    border-radius: 2px;
+    width: 90%; 
+}
+#formitemsbody{
+    padding:2% 2% 2% 2%;
+    margin: 2% 0% 5% 0%;
+    font-family:  "Caros", Caros;
+}
+#sectionIIbody{
+    margin: 0% 2% 0% 0%;
+}
+#submit{
+    text-align: center;
+    width:95%;
+    padding:2% 2% 2% 2%;
+    margin:2% 2% 2% 2%;
+    font-family:"Caros", Caros;
+    font-size: 100%;
+    background-color: #ff4800;
+    color: white;
+    border: none;
+}
+#submit:hover{
+background-color:white ;
+color:#ff4800 ;
+}
+#termsbody{
+    position: relative; left: -2%;
+    padding: 2%;
+}
+
+.termfamily{
+    color: #FF4800;
+}
+.termfamily:hover{
+    color: #ad3224;
+}
+
+/* Callsales styling */
+
+.secIimg{
+width: 60px;
+height: 55.1px;
+}
+.secIbody{
+    font-size: 100%;
+    font-family: "Caros", Caros;
+    color:#283A5E;
+    line-height: 32px;
+}
+.secIsales{
+    font-size: 140%;
+    font-weight: bold;
+}
+ #SectionI{
+    line-height: 150%;
+    font-family: "Caros", Caros;  
+ }
+ #getsupport{
+    color: #FF4800;
+    text-decoration: none;
+ }
+ #rightarrow{
+     position: relative;left: 0.5%;
+ }
+ #flexcont{
+     clear: left;
+     margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap ;
+    margin-left: 3%;
+ }
+ .officeloc{
+     margin: 0% 3% 3% 0%;
+     font-family: "Caros", Caros;
+     color: #283a5e;
+    font-size: 16px;
+    line-height: 38px;
+    border:1px #6ec1e475 solid;
+    border-radius: 2%;
+ }
+
+ .loctop{
+    font-size: 16px;
+    font-weight: bold;
+ }
+ #sectionIII{
+     background-color: white;
+ }
+ #officehead
+    {
+
+        font-family: "Caros", Caros;
+        color: #283A5E;
+         font-size: 30px;
+         line-height: 44px;
+         letter-spacing: -1px;
+         font-weight: bold;
+        text-align: center;
+        margin-top:2%;
+    }
+
+    .telep{
+        font-weight: bold;
+    }
+    .offpara{
+        padding: 0% 10%;
+    }
+        #sectionIV{
+            color: #545e77;
+            font-family: "Caros Bold", Caros;
+            font-size: 21px;
+            line-height: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #followus{
+            padding: 4% 0%;
+            margin: -.4% 0% 0% 0%;
+            font-weight: bold;
+        }
+        .imgus{
+            padding-left: 10px;
+        }
+    #footer{
+        line-height: 250%;
+    }
+    .footerI{
+        float: left;
+        margin-right: 5%;
+        padding-left: 32%;
+
+    }
+    .footerII{
+        float: left;
+        margin-right: 6%;
+        margin-left: 2%;
+
+    }
+    .footerIII{
+        float: left;
+        margin-left: 2%;
+    }
+    .footerIV{
+        clear: left;
+    }
+
+    #uparrow{
+        position: fixed;
+    width: 3.71428571em;
+    height: 3.71428571em;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    right: 1.85714286em;
+    bottom: 190px;
+    padding-top: 12px;
+    }
+    #chaticon{
+        position: fixed;
+        bottom: 22px;
+        z-index: 10000;
+        float: right;
+        right: 21px;
+        cursor: pointer;
+        vertical-align: middle !important;
+        margin: auto;
+    }
+    #sectionIV2{
+        color: #545e77;
+        font-family: "Caros Bold", Caros;
+        font-size: 21px;
+        line-height: 5px;
+        padding-left: 7%;
+
+    }
+    #followus2{
+        padding: 4% 4% 4% 8%;
+        margin: -.4% 0% 0% 0%;
+        font-weight: bold;
+        font-family: "Caros Bold", Caros;
+        font-size: 17px;
+        color:#283a5e ;
+    }
+    .imgus2{
+        padding-left: 10px;
+        width: 30px;
+        height: -25px;
+    }
+
+    #copy{
+        text-align: center;
+        margin: 25% 0% 10% 0%;
+        padding-top: 5%;
+        letter-spacing: 1px;
+        color: #828893;
+        font-family: "Caros Bold", Caros !important;
+    }
+
+.foothead{
+    font-weight: bold;
+    font-family: "Poppins", Caros;
+    font-size: 20px;
+    color:#283a5e ;
+}
+.termfamily{
+    color: #FF4800;
+}
+.termfamily:hover{
+    color: #ad3224;
+}
+.footfamily{
+    color: #283a5e;
+    text-decoration: none;
+    font-family:"Caros Bold", Caros;
+}
+.footfamily:hover{
+    color: #ff6d34;;
+}
+li{
+    list-style: none;
+
+}
+    
+
+
+ 
+
+
+
+
+
+
